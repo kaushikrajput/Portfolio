@@ -1,0 +1,148 @@
+.resume-section {
+    padding: 0px 200px;
+  }
+  .resume-section .main-heading {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-weight: 900;
+    margin: 64px 0px 28px;
+    width: 100%;
+    font-size: 50px;
+    white-space: nowrap;
+    color: #000;
+  }
+  .resume-title p {
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 400;
+    color: #545454;
+  }
+  
+  b a {
+    color: #000;
+  }
+  .resume-title a:hover {
+    color: #007bff;
+    text-decoration: underline !important;
+  }
+  
+  .resume-image {
+    margin-top: 70px;
+    width: 80%;
+    height: 100% !important;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  /*.flat-button {
+    color: #fd2155;
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+  }
+  .flat-button div {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .flat-button:hover {
+    color: #fff;
+  }
+  a:hover {
+    color: #fd2155;
+  }
+  
+  .flat-button span.bg {
+    left: -5%;
+    position: absolute;
+    background: #fd2155;
+    width: 0;
+    height: 100%;
+    -webkit-transition: 0.3s ease-out all;
+    -o-transition: 0.3s ease-out all;
+    transition: 0.3s ease-out all;
+    -webkit-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+  }
+  .flat-button:hover span.bg {
+    width: 110%;
+  }
+  .flat-button span.base {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border: 1px solid #fd2155;
+  }
+  
+  .flat-button span.text {
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .flat-button span.text::after {
+    content: "";
+    width: 4px;
+    height: 4px;
+    right: 0;
+    bottom: 0;
+    background: #fd2155;
+    position: absolute;
+    -webkit-transition: 0.3s ease-out all;
+    -o-transition: 0.3s ease-out all;
+    transition: 0.3s ease-out all;
+  }
+  .flat-button:hover span.text:after {
+    background: #d0d0d0;
+  }*/
+  .resume-section .to-contact-page p {
+    margin: 50px 0 0;
+    color: #000;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: normal;
+  }
+  
+  .resume-section p svg {
+    margin-left: 1rem;
+    animation-name: forward;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @media (max-width: 991px) {
+    .resume-section {
+      padding: 50px 0;
+    }
+    .resume-image {
+      width: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    .resume-section .main-heading {
+      font-size: 40px;
+      text-align: center;
+    }
+  }
+  
