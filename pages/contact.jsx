@@ -9,14 +9,17 @@ const Contact = (props) => {
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
 
+
     const [modalShow, setModalShow] = React.useState(false);
 
-    const getMessage = async (e) => {
-        e.preventDefault()
-        const { data } = await axios.post("https://my-portfolio-9b7dc-default-rtdb.firebaseio.com/userRecord.json", { name: name, email: email, message: message });
-        setModalShow(true)
-        console.log(data);
-    }
+    //const getMessage = async (e) => {
+    //    e.preventDefault()
+    //    const { data } = await axios.post("https://my-portfolio-9b7dc-default-rtdb.firebaseio.com/userRecord.json", { name: name, email: email, message: message });
+    //    setModalShow(true)
+    //    console.log(data);
+    //}
+
+
 
     return (
         <>
@@ -29,18 +32,53 @@ const Contact = (props) => {
                                 <b>kaushikrajput0926@gmail.com</b>
                             </p>
                             <br />
-                            <form action="">
+                            <form action="https://formspree.io/f/xnqybrwd"
+                                method="POST">
                                 <div className='fields'>
-                                    <div className='fields-half'>
-                                        <input type="text" name='name' id='name' className='form-control' placeholder='Name' area-required='true' required value={name} onChange={(e) => setName(e.target.value)}  data-aos="fade-down" data-aos-duration="1400"  data-aos-once="true"/>
+                                    <div className='fields half'>
+                                        <input
+                                            type="text"
+                                            name='name'
+                                            id='name'
+                                            className='form-control'
+                                            placeholder='Name'
+                                            area-required='true'
+                                            required
+                                            value={name}
+                                            onChange={(e) => setName(e.target.value)}
+                                            data-aos="fade-down" data-aos-duration="1400" data-aos-once="true" />
                                     </div>
-                                    <div className='fields-half'>
-                                        <input type="email" name='email' id='email' className='form-control' placeholder='Email' area-required='true' required value={email} onChange={(e) => setEmail(e.target.value)}  data-aos="fade-down" data-aos-duration="1200"  data-aos-once="true"/>
+                                    <div className='fields half'>
+                                        <input
+                                            type="email"
+                                            name='email'
+                                            id='email'
+                                            className='form-control'
+                                            placeholder='Email'
+                                            area-required='true'
+                                            required
+                                            value={email}
+                                            onChange={(e) => setEmail(e.target.value)}
+                                            data-aos="fade-down" data-aos-duration="1200" data-aos-once="true" />
                                     </div>
-                                    <div className='fields-half'>
-                                        <textarea type="text" rows='5' name='message' id='message' className='form-control' placeholder='Message' area-required='true' required value={message} onChange={(e) => setMessage(e.target.value)}  data-aos="fade-down" data-aos-duration="1000"  data-aos-once="true"/>
+                                    <div className='fields half'>
+                                        <textarea
+                                            rows='5'
+                                            name='message'
+                                            id='message'
+                                            className='form-control'
+                                            placeholder='Message'
+                                            area-required='true'
+                                            required
+                                            value={message}
+                                            onChange={(e) => setMessage(e.target.value)} />
                                     </div>
-                                    <button className='btn btn-default' type='submit' onClick={getMessage} data-aos="fade-down" data-aos-duration="800"  data-aos-once="true" >Send Message</button>
+                                    <button
+                                        className='btn btn-default'
+                                        type='submit'
+                                        aria-label='Send Message'
+                                     >Send Message
+                                    </button>
                                 </div>
                             </form>
                             <div className='to-home-page'>
@@ -57,8 +95,7 @@ const Contact = (props) => {
                 </div>
             </div>
 
-
-            <Modal
+            {/*<Modal
                 show={modalShow} onHide={() => setModalShow(false)}
                 size="lg"
                 aria-labelledby="contained-modal-title-vcenter"
@@ -76,9 +113,8 @@ const Contact = (props) => {
                             </div>
                         </div>
                     </div>
-
                 </Modal.Body>
-            </Modal>
+            </Modal>*/}
         </>
     )
 }
