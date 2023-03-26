@@ -1,8 +1,10 @@
-import { React, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Sling as Hamburger } from 'hamburger-react'
-import Link  from 'next/link';
+import Link from 'next/link';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Image from 'next/image'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Navbar = () => {
@@ -18,6 +20,10 @@ const Navbar = () => {
 
     const [isOpen, setOpen] = useState(false)
 
+    useEffect(() => {
+        AOS.init();
+    })
+    
     return (
         <>
             <header className="header ">
@@ -25,22 +31,22 @@ const Navbar = () => {
                     <div className='container d-flex justify-content-between'>
                         <div className="navbar-brand" >
                             <Link href="/" className='logo'>
-                                <Image src="/assets/images/logo.png" alt='' className='img-fluid' width={500} height={500}/>
+                                <Image src="/assets/images/logo.png" alt='' className='img-fluid' width={500} height={500} />
                             </Link>
                         </div>
                         <div className="nav-items">
                             <ul className="nav-list ml-auto">
                                 <li className='nav-item'>
-                                    <Link href="/about" className='nav-link' >About</Link>
+                                    <Link href="/about" className='nav-link' data-aos="fade-down" data-aos-duration="1000" >About</Link>
+                                </li>
+                                <li className='nav-item' >
+                                    <Link href="/projects" className='nav-link' data-aos="fade-down" data-aos-duration="1200">Projects</Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link href="/projects" className='nav-link'>Projects</Link>
+                                    <Link href="/resume" className='nav-link'  data-aos="fade-down" data-aos-duration="1400">Resume</Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link href="/resume" className='nav-link'>Resume</Link>
-                                </li>
-                                <li className='nav-item'>
-                                    <Link href="/contact" className='nav-link'>Contact</Link>
+                                    <Link href="/contact" className='nav-link'  data-aos="fade-down" data-aos-duration="1600">Contact</Link>
                                 </li>
                             </ul>
                         </div>
@@ -60,7 +66,7 @@ const Navbar = () => {
                 <Offcanvas.Body>
                     <div className='navbar-collapse'>
                         <button className='close-nav' onClick={handleClose}>
-                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" >
                                 <path d="M12 11.293l10.293-10.293.707.707-10.293 10.293 10.293 10.293-.707.707-10.293-10.293-10.293 10.293-.707-.707 10.293-10.293-10.293-10.293.707-.707 10.293 10.293z"></path>
                             </svg>
                         </button>

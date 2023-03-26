@@ -10,14 +10,14 @@ const Hero = () => {
                     <div className='row align-item-center justify-content-center'>
                         <div className='col-md-10'>
                             <div className="text-block">
-                                <h1 data-text="I'm Kaushik Rajput" className='intro-text' >
+                                <h1 data-text="I'm Kaushik Rajput" className='intro-text'  data-aos="fade-down" data-aos-duration="2000">
                                     <mark className='mark'>I’m Kaushik Rajput</mark>
                                 </h1>
-                                <div className="big-heading" data-aos="fade-down"  >
+                                <div className="big-heading" data-aos="fade-down" data-aos-duration="1600" >
                                     <h3>I build things for the web.</h3>
                                 </div>
-                                <p >Front End Developer</p>
-                                <div className='to-about-page'>
+                                <p data-aos="fade-down" data-aos-duration="1200">Front End Developer</p>
+                                <div className='to-about-page' data-aos="fade-down" data-aos-duration="1000">
                                     <Link href="/about">
                                         <p>See More About Me
                                             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" >
