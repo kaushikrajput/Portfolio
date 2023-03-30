@@ -32,7 +32,7 @@ const Contact = (props) => {
                                 <b>kaushikrajput0926@gmail.com</b>
                             </p>
                             <br />
-                            <form action="https://formspree.io/f/xnqybrwd"
+                            <form action="https://formspree.io/f/mrgvypnk"
                                 method="POST">
                                 <div className='fields'>
                                     <div className='fields half'>
