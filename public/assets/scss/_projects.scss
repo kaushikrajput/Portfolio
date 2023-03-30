@@ -30,7 +30,7 @@
     break-inside: avoid;
     border: 1px solid #d4f0ff;
   }
-  .card-section a:hover {
+  .card-section .card-style:hover {
     transform: translateY(-7.5px);
     transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
   }

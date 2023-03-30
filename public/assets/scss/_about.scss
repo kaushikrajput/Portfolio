@@ -97,10 +97,8 @@ p > a:hover::after {
   margin-left: 10px;
   z-index: 1;
 }
-.img-card .imgs:hover {
-  transform: translateY(-7.5px);
-  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
-}
+
+
 .img-card img {
   border-radius: 4px;
 }

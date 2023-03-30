@@ -96,7 +96,7 @@ const Contact = (props) => {
             </div>
 
             {/*<Modal
-                show={modalShow} onHide={() => setModalShow(false)}
+                show={mod00alShow} onHide={() => setModalShow(false)}
                 size="lg"
                 aria-labelledby="contained-modal-title-vcenter"
                 centered

@@ -37,16 +37,16 @@ const Navbar = () => {
                         <div className="nav-items">
                             <ul className="nav-list ml-auto">
                                 <li className='nav-item'>
-                                    <Link href="/about" className='nav-link' data-aos="fade-down" data-aos-duration="1000" >About</Link>
+                                    <Link href="/about" className='nav-link' data-aos="fade-down" data-aos-duration="1600" >About</Link>
                                 </li>
                                 <li className='nav-item' >
-                                    <Link href="/projects" className='nav-link' data-aos="fade-down" data-aos-duration="1200">Projects</Link>
+                                    <Link href="/projects" className='nav-link' data-aos="fade-down" data-aos-duration="1800">Projects</Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link href="/resume" className='nav-link'  data-aos="fade-down" data-aos-duration="1400">Resume</Link>
+                                    <Link href="/resume" className='nav-link'  data-aos="fade-down" data-aos-duration="2000">Resume</Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link href="/contact" className='nav-link'  data-aos="fade-down" data-aos-duration="1600">Contact</Link>
+                                    <Link href="/contact" className='nav-link'  data-aos="fade-down" data-aos-duration="2200">Contact</Link>
                                 </li>
                             </ul>
                         </div>
