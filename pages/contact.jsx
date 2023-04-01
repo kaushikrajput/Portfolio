@@ -26,9 +26,9 @@ const Contact = (props) => {
             <div className='contact-page'>
                 <div className='container'>
                     <div className='row align-items-center'>
-                        <h2 className='main-heading' data-aos="fade-right" data-aos-duration="1200">Contact</h2>
+                        <h2 className='main-heading' data-aos="fade-down" data-aos-duration="1600">Contact</h2>
                         <div className='col-md-10'>
-                            <p data-aos="fade-down" data-aos-duration="1200">Get in touch or shoot me an email directly on&nbsp;
+                            <p data-aos="fade-down" data-aos-duration="1400">Get in touch or shoot me an email directly on&nbsp;
                                 <b>kaushikrajput0926@gmail.com</b>
                             </p>
                             <br />
@@ -46,7 +46,7 @@ const Contact = (props) => {
                                             required
                                             value={name}
                                             onChange={(e) => setName(e.target.value)}
-                                            data-aos="fade-down" data-aos-duration="1400" data-aos-once="true" />
+                                            data-aos="fade-down" data-aos-duration="1000" />
                                     </div>
                                     <div className='fields half'>
                                         <input
@@ -59,7 +59,7 @@ const Contact = (props) => {
                                             required
                                             value={email}
                                             onChange={(e) => setEmail(e.target.value)}
-                                            data-aos="fade-down" data-aos-duration="1200" data-aos-once="true" />
+                                            data-aos="fade-down" data-aos-duration="1200" />
                                     </div>
                                     <div className='fields half'>
                                         <textarea
@@ -71,17 +71,19 @@ const Contact = (props) => {
                                             area-required='true'
                                             required
                                             value={message}
-                                            onChange={(e) => setMessage(e.target.value)} />
+                                            onChange={(e) => setMessage(e.target.value)} 
+                                            data-aos="fade-down" data-aos-duration="1400"/>
                                     </div>
                                     <button
                                         className='btn btn-default'
                                         type='submit'
                                         aria-label='Send Message'
+                                        data-aos="fade-down" data-aos-duration="1200"
                                      >Send Message
                                     </button>
                                 </div>
                             </form>
-                            <div className='to-home-page'>
+                            <div className='to-home-page mb-5'>
                                 <Link href='/'>
                                     <p className='mb-5'>Go Back Home
                                         <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" >

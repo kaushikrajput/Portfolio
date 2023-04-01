@@ -9,13 +9,13 @@ const Projects = () => {
         <div className='container'>
           <div className='row align-items-center justify-content-center'>
             <div className='col-md-12'>
-              <h2 className='main-heading'  data-aos="fade-right" data-aos-duration="1000">Projects</h2>
+              <h2 className='main-heading'  data-aos="fade-down" data-aos-duration="1600">Projects</h2>
             </div>
             <div className='card-section'>
-              <a href='https://skinfotechies.netlify.app/' target='_blank' rel="noreferrer" className='card-style'  data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" >
+              <a href='https://skinfotechies.netlify.app/' target='_blank' rel="noreferrer" className='card-style'  data-aos="fade-down" data-aos-duration="1400" data-aos-once="true" >
                 <Image src="/assets/images/project.jpeg" className='img-style img-fluid' alt="" width={500} height={500}/>
               </a>
-              <a href='https://tourtravelworld.netlify.app/' target='_blank' rel="noreferrer" className='card-style'   data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
+              <a href='https://tourtravelworld.netlify.app/' target='_blank' rel="noreferrer" className='card-style'   data-aos="fade-down" data-aos-duration="1400" data-aos-once="true">
                 <Image src="/assets/images/project2.png" className='img-style img-fluid' alt="" width={500} height={500}/>
               </a>
               <a href='https://healthy-day.netlify.app/' target='_blank' rel="noreferrer" className='card-style'  data-aos="fade-down" data-aos-duration="1000"data-aos-once="true">
@@ -25,7 +25,7 @@ const Projects = () => {
 
             <div className='to-resume-page'>
               <Link href='/resume'>
-                <p className='mb-5'>Lets Go To My Resume.
+                <p className='mt-3'>Lets Go To My Resume.
                   <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" >
                     <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"></path>
                   </svg>

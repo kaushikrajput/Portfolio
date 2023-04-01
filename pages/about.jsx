@@ -9,9 +9,9 @@ const About = () => {
             <section className="about-section" id='about'>
                 <div className='container'>
                     <div className="row align-items-center justify-content-center">
-                        <h2 className="main-heading"  data-aos="fade-right" data-aos-duration="1200">About Me </h2>
+                        <h2 className="main-heading"  data-aos="fade-down" data-aos-duration="1400">About Me </h2>
                         <div className='col-lg-7'>
-                            <div className="text-card skills" data-aos="fade-right" data-aos-duration="1000">
+                            <div className="text-card skills" data-aos="fade-down" data-aos-duration="1000">
                                 <p>Hi! My name is Kaushik and I’m doing my graduation in Computer Science. I’m a Front-End
                                     Developer. It’s been around 6 months working as a frontend web developer. I’ve developed few websites
                                     and also I’ve been part of some amazing <a href="https://skinfotechies.netlify.app/" target="_blank" rel="noreferrer">web design projects.</a>
@@ -31,7 +31,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className='col-lg-5'>
-                            <div className='img-card' >
+                            <div className='img-card' data-aos="fade-down" data-aos-duration="1400">
                                 <Image src="/assets/images/p2.jpg" alt="" className='img-fluid imgs' width={500} height={500}/>
                             </div>
                         </div>

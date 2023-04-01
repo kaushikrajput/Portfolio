@@ -21,9 +21,14 @@ const Navbar = () => {
     const [isOpen, setOpen] = useState(false)
 
     useEffect(() => {
-        AOS.init();
+        AOS.init(
+            { once: true }
+        );
+
     })
-    
+
+    const [active, setActive] = useState(false)
+
     return (
         <>
             <header className="header ">
@@ -43,10 +48,10 @@ const Navbar = () => {
                                     <Link href="/projects" className='nav-link' data-aos="fade-down" data-aos-duration="1800">Projects</Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link href="/resume" className='nav-link'  data-aos="fade-down" data-aos-duration="2000">Resume</Link>
+                                    <Link href="/resume" className='nav-link' data-aos="fade-down" data-aos-duration="2000">Resume</Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link href="/contact" className='nav-link'  data-aos="fade-down" data-aos-duration="2200">Contact</Link>
+                                    <Link href="/contact" className='nav-link' data-aos="fade-down" data-aos-duration="2200">Contact</Link>
                                 </li>
                             </ul>
                         </div>
@@ -59,37 +64,37 @@ const Navbar = () => {
                 </nav>
             </header>
 
-            <Offcanvas show={show} onHide={handleClose} scroll='true'>
+            <Offcanvas show={show} onClick={handleClose} scroll='true'>
                 <Offcanvas.Header >
                     <Offcanvas.Title></Offcanvas.Title>
                 </Offcanvas.Header>
-                <Offcanvas.Body>
-                    <div className='navbar-collapse'>
+                <Offcanvas.Body >
+                    <div className='navbar-collapse '>
                         <button className='close-nav' onClick={handleClose}>
                             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" >
                                 <path d="M12 11.293l10.293-10.293.707.707-10.293 10.293 10.293 10.293-.707.707-10.293-10.293-10.293 10.293-.707-.707 10.293-10.293-10.293-10.293.707-.707 10.293 10.293z"></path>
                             </svg>
                         </button>
-                        <ul className='navbar-nav ml-auto'>
-                            <li className='nav-item hover-bottom' onClick={handleClose}>
-                                <Link href='/' className='nav-links is-active'>Home</Link>
+                        <ul className='nav-list ml-auto'>
+                            <li className='d-block nav-item hover-bottom'>
+                                <Link href='/' className='nav-links'>Home</Link>
                             </li>
-                            <li className='nav-item hover-bottom' onClick={handleClose}>
-                                <Link href='/about' className='nav-link '>About</Link>
+                            <li className='d-block nav-item hover-bottom' >
+                                <Link href='/about' className='nav-links '>About</Link>
                             </li>
-                            <li className='nav-item hover-bottom' onClick={handleClose}>
-                                <Link href='/projects' className='nav-link '>Project</Link>
+                            <li className='d-block nav-item hover-bottom'>
+                                <Link href='/projects' className='nav-links '>Projects</Link>
                             </li>
-                            <li className='nav-item hover-bottom' onClick={handleClose}>
-                                <Link href='/resume' className='nav-link '>Resume</Link>
+                            <li className='d-block nav-item hover-bottom'>
+                                <Link href='/resume' className='nav-links '>Resume</Link>
                             </li>
-                            <li className='nav-item hover-bottom' onClick={handleClose}>
-                                <Link href='/contact' className='nav-link '>Contact</Link>
+                            <li className='d-block nav-item hover-bottom'>
+                                <Link href='/contact' className='nav-links '>Contact</Link>
                             </li>
                         </ul>
                     </div>
                 </Offcanvas.Body>
-            </Offcanvas>
+            </Offcanvas >
         </>
     )
 }

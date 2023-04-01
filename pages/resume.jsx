@@ -7,8 +7,8 @@ const Resume = () => {
         <div className='resume-section'>
             <div className='container'>
                 <div className='resume-title '>
-                    <h2 className='main-heading'  data-aos="fade-right" data-aos-duration="1000">Resumé</h2>
-                    <p data-aos="fade-right" data-aos-duration="1000">
+                    <h2 className='main-heading'  data-aos="fade-down" data-aos-duration="1400">Resumé</h2>
+                    <p data-aos="fade-down" data-aos-duration="1200">
                         Reach out to me via my
                         &nbsp;
                         <b><Link href="/contact">contact page</Link></b>&nbsp;.&nbsp;
@@ -17,14 +17,14 @@ const Resume = () => {
                         the resume
                     </p>
                 </div>
-                <div className='resume-image' >
+                <div className='resume-image' data-aos="fade-down" data-aos-duration="1000">
                     <Link href="/resume">
                         <Image src="/assets/images/resume-img.png" alt="" className='img-fluid' width={500} height={500}/>
                     </Link>
                 </div>
                 <div className='to-contact-page'>
                     <Link href='/contact'>
-                        <p className='mb-5'>Are you convinced to contact me now ?
+                        <p className='mb-4'>Are you convinced to contact me now ?
                             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" >
                                 <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"></path>
                             </svg>
