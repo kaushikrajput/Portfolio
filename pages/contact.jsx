@@ -83,7 +83,7 @@ const Contact = (props) => {
                                     </button>
                                 </div>
                             </form>
-                            <div className='to-home-page mb-5'>
+                            <div className='to-home-page mb-2'>
                                 <Link href='/'>
                                     <p className='mb-5'>Go Back Home
                                         <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" >

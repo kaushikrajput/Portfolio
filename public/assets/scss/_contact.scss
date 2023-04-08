@@ -70,10 +70,9 @@ textarea.form-control {
   background-color: #000;
 }
 .contact-page .to-home-page p {
+  font-size: #000;
   margin: 50px 0 0;
-  color: #545454;
   font-size: 15px;
-  font-weight: 100;
   letter-spacing: normal;
   margin: 0;
   padding: 0;
@@ -86,7 +85,6 @@ textarea.form-control {
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
-
 
 @media (max-width: 991px) {
   .contact-page {

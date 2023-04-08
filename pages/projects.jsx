@@ -15,7 +15,7 @@ const Projects = () => {
               <a href='https://skinfotechies.netlify.app/' target='_blank' rel="noreferrer" className='card-style'  data-aos="fade-down" data-aos-duration="1400" data-aos-once="true" >
                 <Image src="/assets/images/project.jpeg" className='img-style img-fluid' alt="" width={500} height={500}/>
               </a>
-              <a href='https://tourtravelworld.netlify.app/' target='_blank' rel="noreferrer" className='card-style'   data-aos="fade-down" data-aos-duration="1400" data-aos-once="true">
+              <a href='https://travelryy.netlify.app/' target='_blank' rel="noreferrer" className='card-style'   data-aos="fade-down" data-aos-duration="1400" data-aos-once="true">
                 <Image src="/assets/images/project2.png" className='img-style img-fluid' alt="" width={500} height={500}/>
               </a>
               <a href='https://healthy-day.netlify.app/' target='_blank' rel="noreferrer" className='card-style'  data-aos="fade-down" data-aos-duration="1000"data-aos-once="true">
