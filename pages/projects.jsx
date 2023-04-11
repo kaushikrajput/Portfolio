@@ -22,7 +22,7 @@ const Projects = () => {
                 <Image src="/assets/images/project3.png" className='img-style img-fluid' alt="" width={500} height={500}/>
               </a>
               <a href='https://weatherzen.netlify.app/' target='_blank' rel="noreferrer" className='card-style'  data-aos="fade-down" data-aos-duration="1000"data-aos-once="true">
-                <Image src="/assets/images/project3.png" className='img-style img-fluid' alt="" width={500} height={500}/>
+                <Image src="/assets/images/weather-Image.jpeg" className='img-style img-fluid' alt="" width={500} height={500}/>
               </a>
             </div>
 
