@@ -19,19 +19,16 @@ const Contact = (props) => {
     //    console.log(data);
     //}
 
-
-
     return (
         <>
             <div className='contact-page'>
                 <div className='container'>
                     <div className='row align-items-center'>
                         <h2 className='main-heading' data-aos="fade-down" data-aos-duration="1600">Contact</h2>
-                        <div className='col-md-10'>
                             <p data-aos="fade-down" data-aos-duration="1400">Get in touch or shoot me an email directly on&nbsp;
                                 <b>kaushikrajput0926@gmail.com</b>
                             </p>
-                            <br />
+                        <div className='col-md-6'>
                             <form action="https://formspree.io/f/mrgvypnk"
                                 method="POST">
                                 <div className='fields'>
@@ -71,15 +68,15 @@ const Contact = (props) => {
                                             area-required='true'
                                             required
                                             value={message}
-                                            onChange={(e) => setMessage(e.target.value)} 
-                                            data-aos="fade-down" data-aos-duration="1400"/>
+                                            onChange={(e) => setMessage(e.target.value)}
+                                            data-aos="fade-down" data-aos-duration="1400" />
                                     </div>
                                     <button
                                         className='btn btn-default'
                                         type='submit'
                                         aria-label='Send Message'
                                         data-aos="fade-down" data-aos-duration="1200"
-                                     >Send Message
+                                    >Send Message
                                     </button>
                                 </div>
                             </form>
@@ -91,6 +88,11 @@ const Contact = (props) => {
                                         </svg>
                                     </p>
                                 </Link>
+                            </div>
+                        </div>
+                        <div className='col-md-6'>
+                            <div className='google-map'>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4603.194813717168!2d77.34558617859463!3d28.633687107097007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1681545614815!5m2!1sen!2sin" width="700" height="450" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>

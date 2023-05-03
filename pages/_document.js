@@ -11,7 +11,7 @@ export default function Document() {
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
       />
-      <body>
+      <body className="light-theme">
         <Main />
         <NextScript />
       </body>

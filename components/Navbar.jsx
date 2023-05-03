@@ -27,7 +27,21 @@ const Navbar = () => {
 
     })
 
-    const [active, setActive] = useState(false)
+    // const [active, setActive] = useState(false)
+
+    // const [theme, setTheme] = useState("light-theme");
+
+    // const toggleTheme = () => {
+    //     if (theme === "dark-theme") {
+    //         setTheme("light-theme");
+    //     } else {
+    //         setTheme("dark-theme");
+    //     }
+    // };
+
+    // useEffect(() => {
+    //     document.body.className = theme;
+    // }, [theme]);
 
     return (
         <>
@@ -53,6 +67,13 @@ const Navbar = () => {
                                 <li className='nav-item'>
                                     <Link href="/contact" className='nav-link' data-aos="fade-down" data-aos-duration="2200">Contact</Link>
                                 </li>
+                                {/* <li className='nav-item'>
+                                    <Link href="#" className='nav-link' data-aos="fade-down" data-aos-duration="2200" onClick={() => toggleTheme()}>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                            <path d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm2 0c0-5.514 4.486-10 10-10v20c-5.514 0-10-4.486-10-10z"></path>
+                                        </svg>
+                                    </Link>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
