@@ -12,14 +12,14 @@ const Projects = () => {
               <h2 className='main-heading'  data-aos="fade-down" data-aos-duration="1600">Projects</h2>
             </div>
             <div className='card-section'>
+              <a href='https://panell.netlify.app/' target='_blank' rel="noreferrer" className='card-style'  data-aos="fade-down" data-aos-duration="1000"data-aos-once="true">
+                <Image src="/assets/images/project5.jpeg" className='img-style img-fluid' alt="" width={500} height={500}/>
+              </a>
               <a href='https://skinfotechies.netlify.app/' target='_blank' rel="noreferrer" className='card-style'  data-aos="fade-down" data-aos-duration="1400" data-aos-once="true" >
                 <Image src="/assets/images/project.jpeg" className='img-style img-fluid' alt="" width={500} height={500}/>
               </a>
               <a href='https://travelryy.netlify.app/' target='_blank' rel="noreferrer" className='card-style'   data-aos="fade-down" data-aos-duration="1400" data-aos-once="true">
                 <Image src="/assets/images/project2.png" className='img-style img-fluid' alt="" width={500} height={500}/>
-              </a>
-              <a href='https://healthy-day.netlify.app/' target='_blank' rel="noreferrer" className='card-style'  data-aos="fade-down" data-aos-duration="1000"data-aos-once="true">
-                <Image src="/assets/images/project3.png" className='img-style img-fluid' alt="" width={500} height={500}/>
               </a>
               <a href='https://reduxxtoolkitstore.netlify.app/' target='_blank' rel="noreferrer" className='card-style'  data-aos="fade-down" data-aos-duration="1000"data-aos-once="true">
                 <Image src="/assets/images/project4.png" className='img-style img-fluid' alt="" width={500} height={500}/>
