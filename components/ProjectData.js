@@ -1,0 +1,42 @@
+export const projectsDATA = [
+  {
+    id:1,
+    title: "Dashboard",
+    description: "The Dashboard",
+    about: "This is the Dashboard ",
+    link: "https://panell.netlify.app/",
+    imageUrl: "/assets/images/project5.jpeg",
+  },
+  {
+    id:2,
+    title: "Skinfotechies",
+    description: "The Skinfotechies",
+    about: "This is the Skinfotechies website ",
+    link: "https://skinfotechies.netlify.app/",
+    imageUrl: "/assets/images/project.jpeg",
+  },
+  {
+    id:3,
+    title: "Tarvelryy",
+    description: "The Tarvel",
+    about: "This is the Travel Website ",
+    link: "https://travelryy.netlify.app/",
+    imageUrl: "/assets/images/project2.png",
+  },
+  {
+    id:4,
+    title: "Redux-Toolkit",
+    description: "The Redux-Toolkit",
+    about: "This is the Redux-Toolkit Test ",
+    link: "https://reduxxtoolkitstore.netlify.app/",
+    imageUrl: "/assets/images/project4.png",
+  },
+  {
+    id:5,
+    title: "Weather",
+    description: "The Weather",
+    about: "This is the Weather app ",
+    link: "https://weatherzen.netlify.app/",
+    imageUrl: "/assets/images/weather-Image.jpeg",
+  },
+];

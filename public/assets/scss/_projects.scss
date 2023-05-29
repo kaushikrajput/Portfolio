@@ -1,137 +1,177 @@
 .work-section {
-    color: #fff;
-    padding: 0px 200px;
-    margin: 0 auto;
-  }
-  .work-section .main-heading {
-    display: flex;
-    align-items: center;
-    position: relative;
-    font-weight: 900;
-    margin: 64px 0px 28px;
-    font-size: 50px;
-    white-space: nowrap;
-    color: #000;
-  }
-  .card-style {
-    height: 310px;
-    margin: 0px 0px 1.5em;
-    position: relative;
-    cursor: pointer;
-    object-fit: cover;
-    background-color: #f4f1ee;
-    background-position: center center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    padding: 1.4rem 2rem;
-    display: flex;
-    align-items: flex-end;
-    border-radius: 4px;
-    break-inside: avoid;
-    border: 1px solid #d4f0ff;
-  }
-  .card-section .card-style:hover {
-    transform: translateY(-7.5px);
-    transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
-  }
-  .card-style::before {
-    width: 100%;
-    content: "";
-    pointer-events: none;
-    display: block;
-    position: absolute;
-    inset: 0px;
-    z-index: -1;
-    background: radial-gradient(
-      circle at center center,
-      white 10%,
-      whitesmoke 11%,
-      whitesmoke 100%
-    );
-  }
-  
-  .card-style::after {
-    content: "";
-    pointer-events: none;
-    position: absolute;
-    z-index: 1;
-    inset: 0px;
-    opacity: 0.3;
-    background: linear-gradient(rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.78) 80%);
-  }
-  .card-style img {
-    position: absolute;
-    object-fit: cover;
-    width: 100% !important;
-    height: 100% !important;
-    left: 0px !important;
-    top: 0px !important;
-  }
-  .card-style:hover div.content-slate {
-    z-index: 999;
-    transform: none;
-    opacity: 1;
-  }
-  
-  .card-section div.content-slate {
-    /*opacity: 0;*/
-    transform: translateY(10%);
-    transition: opacity 300ms ease-in-out 0s, transform 300ms ease-in-out 0s;
-  }
-  .card-section h3 {
-    color: rgb(141, 50, 50);
-    font-size: 15px;
-    font-weight: 800;
-  }
-  .card-section p {
-    font-size: 20px;
-    color: rgb(109, 43, 43) !important;
-  }
+  color: #fff;
+  padding: 0px 200px;
+  margin: 0 auto;
+}
+.work-section .main-heading {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-weight: 900;
+  margin: 64px 0px 28px;
+  font-size: 50px;
+  white-space: nowrap;
+  color: #000;
+}
+// ------------------------- sidebar ------------------------------
+
+.offcanvas-backdrop.show {
+  opacity: 0.8;
+}
+.offcanvas.offcanvas-start {
+  right: 0 !important;
+  left: auto;
+  transform: translateX(100%);
+}
+.offcanvas {
+  max-width: 544px;
+}
+.offcanvas-body {
+  position: relative;
+  padding: 32px 32px 64px;
+  overflow-x: overlay;
+  max-width: 100%;
+}
+
+.sidebar-top {
+  margin-bottom: 32px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar-top a:hover{
+  color: inherit;
+
+}
+.closebutton {
+  border: none;
+  background: transparent;
+  padding: 0 9px;
+}
+.back-to-projects {
+  font-size: 15px;
+  color: #000;
+  font-weight: 900;
+}
+.card-style {
+  height: 310px;
+  margin: 0px 0px 1.5em;
+  position: relative;
+  cursor: pointer;
+  object-fit: cover;
+  background-color: #f4f1ee;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 1.4rem 2rem;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 4px;
+  break-inside: avoid;
+  border: 1px solid #d4f0ff;
+}
+.card-section .card-style:hover {
+  transform: translateY(-7.5px);
+  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+.card-style::before {
+  width: 100%;
+  content: "";
+  pointer-events: none;
+  display: block;
+  position: absolute;
+  inset: 0px;
+  z-index: -1;
+  background: radial-gradient(
+    circle at center center,
+    white 10%,
+    whitesmoke 11%,
+    whitesmoke 100%
+  );
+}
+
+.card-style::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+  inset: 0px;
+  opacity: 0.3;
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.78) 80%);
+}
+.card-style img {
+  position: absolute;
+  object-fit: cover;
+  width: 100% !important;
+  height: 100% !important;
+  left: 0px !important;
+  top: 0px !important;
+}
+.card-style:hover div.content-slate {
+  z-index: 999;
+  transform: none;
+  opacity: 1;
+}
+
+.card-section div.content-slate {
+  /*opacity: 0;*/
+  transform: translateY(10%);
+  transition: opacity 300ms ease-in-out 0s, transform 300ms ease-in-out 0s;
+}
+.card-section h3 {
+  color: rgb(141, 50, 50);
+  font-size: 15px;
+  font-weight: 800;
+}
+.card-section p {
+  font-size: 20px;
+  color: rgb(109, 43, 43) !important;
+}
+.card-section {
+  column-count: 2;
+  margin: 50px 0px;
+  animation-duration: 1s;
+  animation-name: fadeInUp;
+  animation-fill-mode: both;
+  column-gap: 1.5em;
+}
+.card-section a {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.work-section .to-resume-page p {
+  color: #000;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: normal;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.work-section p svg {
+  margin-left: 1rem;
+  animation-name: forward;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@media (max-width: 991px) {
   .card-section {
-    column-count: 2;
-    margin: 50px 0px;
-    animation-duration: 1s;
-    animation-name: fadeInUp;
-    animation-fill-mode: both;
-    column-gap: 1.5em;
+    column-count: 1;
   }
-  .card-section a {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+@media (max-width: 991px) {
+  .work-section {
+    padding: 50px 0px;
   }
-  
-  .work-section .to-resume-page p {
-    color: #000;
-    font-size: 15px;
-    font-weight: 100;
-    letter-spacing: normal;
+}
+
+@media (max-width: 768px) {
+  .work-section .main-heading {
+    font-size: 40px;
+    text-align: center;
   }
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  .work-section p svg {
-    margin-left: 1rem;
-    animation-name: forward;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-  @media (max-width: 991px) {
-    .card-section {
-      column-count: 1;
-    }
-  }
-  @media (max-width: 991px) {
-    .work-section {
-      padding: 50px 0px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .work-section .main-heading {
-      font-size: 40px;
-      text-align: center;
-    }
-  }
-  
+}
