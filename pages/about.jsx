@@ -60,7 +60,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="col-md-5">
               I am a self-starter with strong interpersonal skills. I work
               efficiently both as an individual contributor as well as along
@@ -73,7 +73,7 @@ const About = () => {
               with a team. I seek new challenges and try to think out-of-the-box
               while looking for creative solutions to a given problem.
             </div>
-          </div>
+          </div> */}
           <div className="to-work-page">
             <Link href="/projects">
               <p className=" mb-5 mt-5">
