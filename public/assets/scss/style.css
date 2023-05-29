@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 .header {
   display: flex;
   justify-content: space-between;
@@ -534,6 +535,10 @@ a:hover {
   gap: 50px;
 }
 
+.about-me {
+  padding: 80px 40px;
+}
+
 .about-section .main-heading {
   display: flex;
   align-items: center;
@@ -669,9 +674,45 @@ a:hover {
   animation-direction: alternate;
 }
 
+.random-facts {
+  padding: 100px 40px 60px 40px;
+}
+
+.texts a {
+  color: #333333;
+}
+
+.random-facts h2 {
+  font-family: Roboto, sans-serif;
+  margin-bottom: 30px;
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 300;
+}
+
+.random-facts ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul.ul li {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: Roboto, sans-serif;
+}
+
+.gojo-img {
+  border-radius: 5px;
+  height: 400px;
+}
+
 @media only screen and (max-width: 991px) {
   .about-section {
     padding: 50px 0;
+  }
+  .about-me {
+    padding: 0 20px;
   }
   .about-section .inner {
     display: block;
@@ -695,6 +736,13 @@ a:hover {
     align-items: center;
     text-align: center;
     margin: 50px auto 40px;
+  }
+  .mentor-img {
+    margin-bottom: 50px;
+  }
+  .gojo-img {
+    width: 70%;
+    height: 70%;
   }
 }
 @media (max-width: 768px) {

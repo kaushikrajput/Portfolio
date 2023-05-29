@@ -7,73 +7,92 @@ const About = () => {
     <>
       <section className="about-section" id="about">
         <div className="container">
-          <div className="row align-items-center justify-content-center">
-            <h2
-              className="main-heading"
-              data-aos="fade-down"
-              data-aos-duration="1400"
-            >
-              About Me{" "}
-            </h2>
-            <div className="col-lg-7">
-              <div
-                className="text-card skills"
-                data-aos="fade-down"
-                data-aos-duration="1000"
-              >
-                <p>
-                  Hi! My name is Kaushik and I’m doing my graduation in Computer
-                  Science. I've enjoyed turning complex problems into simple,
-                  beautiful and intuitive designs. I am a self-starter with
-                  strong interpersonal skills. I work efficiently both as an
-                  individual contributor as well as along with a team. I seek
-                  new challenges and try to think out-of-the-box while looking
-                  for creative solutions to a given problem.
-                </p>
-
-                {/* <p>Fan of movies, TV series and outdoor activites.</p> */}
-                <p>
-                  Here are a few technologies I’ve been working with recently:
-                </p>
-                <ul className="skills-list">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>SASS</li>
-                  <li>JavaScript (ES6+)</li>
-                  <li>React</li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-5">
-              <div
-                className="img-card"
+          <div className="about-me">
+            <div className="row align-items-center justify-content-center">
+              <h2
+                className="main-heading"
                 data-aos="fade-down"
                 data-aos-duration="1400"
               >
-                <Image
-                  src="/assets/images/p2.jpg"
-                  alt=""
-                  className="img-fluid imgs"
-                  width={500}
-                  height={500}
-                />
+                About Me{" "}
+              </h2>
+              <div className="col-lg-7">
+                <div
+                  className="text-card skills"
+                  data-aos="fade-down"
+                  data-aos-duration="1000"
+                >
+                  <p>
+                    Hi! My name is Kaushik and I’m doing my graduation in
+                    Computer Science. I've enjoyed turning complex problems into
+                    simple, beautiful and intuitive designs. I am a self-starter
+                    with strong interpersonal skills. I work efficiently both as
+                    an individual contributor as well as along with a team. I
+                    seek new challenges and try to think out-of-the-box while
+                    looking for creative solutions to a given problem.
+                  </p>
+                  <p>
+                    Here are a few technologies I’ve been working with recently:
+                  </p>
+                  <ul className="skills-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SASS</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>React</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-5">
+                <div
+                  className="img-card"
+                  data-aos="fade-down"
+                  data-aos-duration="1400"
+                >
+                  <Image
+                    src="/assets/images/p2.jpg"
+                    alt=""
+                    className="img-fluid imgs"
+                    width={500}
+                    height={500}
+                  />
+                </div>
               </div>
             </div>
           </div>
-          {/* <div className="row">
-            <div className="col-md-5">
-              I am a self-starter with strong interpersonal skills. I work
-              efficiently both as an individual contributor as well as along
-              with a team. I seek new challenges and try to think out-of-the-box
-              while looking for creative solutions to a given problem.
+          <div className="random-facts">
+            <div className="row justify-content-center ">
+              <div className="col-lg-7 text-center">
+                <div className="mentor-img">
+                  <img
+                    src="/assets/images/gojo3.jpg"
+                    alt=""
+                    className="img-fluid gojo-img"
+                  />
+                </div>
+              </div>
+              <div className="col-lg-5 text-center">
+                <div className="texts">
+                  <h2>Random facts</h2>
+                  <ul className="ul">
+                    <li>I drink a lot of coffee</li>
+                    <li>I'm a bit of a clean freak</li>
+                    <li>Fan of movies, TV series</li>
+                    <li>
+                      I'm slightly addicted to{" "}
+                      <a
+                        href="https://www.instagram.com/_imkaushik/"
+                        target="_blank"
+                      >
+                        Instagram
+                      </a>
+                    </li>
+                    <li>Gojo is my mentor</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div className="col-md-7">
-              I am a self-starter with strong interpersonal skills. I work
-              efficiently both as an individual contributor as well as along
-              with a team. I seek new challenges and try to think out-of-the-box
-              while looking for creative solutions to a given problem.
-            </div>
-          </div> */}
+          </div>
           <div className="to-work-page">
             <Link href="/projects">
               <p className=" mb-5 mt-5">
