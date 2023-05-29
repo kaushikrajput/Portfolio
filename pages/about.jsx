@@ -16,7 +16,7 @@ const About = () => {
               >
                 About Me{" "}
               </h2>
-              <div className="col-lg-7">
+              <div className="col-lg-7 order-1">
                 <div
                   className="text-card skills"
                   data-aos="fade-down"
@@ -43,7 +43,7 @@ const About = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-5">
+              <div className="col-lg-5 order-2">
                 <div
                   className="img-card"
                   data-aos="fade-down"
@@ -62,7 +62,7 @@ const About = () => {
           </div>
           <div className="random-facts">
             <div className="row justify-content-center ">
-              <div className="col-lg-7 text-center">
+              <div className="col-lg-7 text-center order-2">
                 <div className="mentor-img">
                   <img
                     src="/assets/images/gojo3.jpg"
@@ -71,7 +71,7 @@ const About = () => {
                   />
                 </div>
               </div>
-              <div className="col-lg-5 text-center">
+              <div className="col-lg-5 text-center order-1">
                 <div className="texts">
                   <h2>Random facts</h2>
                   <ul className="ul">
