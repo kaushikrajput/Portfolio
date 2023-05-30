@@ -56,16 +56,16 @@ const Navbar = () => {
                         <div className="nav-items">
                             <ul className="nav-list ml-auto">
                                 <li className='nav-item'>
-                                    <Link href="/about" className='nav-link' data-aos="fade-down" data-aos-duration="1600" >About</Link>
+                                    <Link href="/about" className='nav-link'  >About</Link>
                                 </li>
                                 <li className='nav-item' >
-                                    <Link href="/projects" className='nav-link' data-aos="fade-down" data-aos-duration="1800">Projects</Link>
+                                    <Link href="/projects" className='nav-link' >Projects</Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link href="/resume" className='nav-link' data-aos="fade-down" data-aos-duration="2000">Resume</Link>
+                                    <Link href="/resume" className='nav-link' >Resume</Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link href="/contact" className='nav-link' data-aos="fade-down" data-aos-duration="2200">Contact</Link>
+                                    <Link href="/contact" className='nav-link' >Contact</Link>
                                 </li>
                                 {/* <li className='nav-item'>
                                     <Link href="#" className='nav-link' data-aos="fade-down" data-aos-duration="2200" onClick={() => toggleTheme()}>

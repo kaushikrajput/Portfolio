@@ -680,6 +680,7 @@ a:hover {
 
 .texts a {
   color: #333333;
+  text-decoration: underline;
 }
 
 .random-facts h2 {
@@ -703,8 +704,7 @@ ul.ul li {
 }
 
 .gojo-img {
-  border-radius: 5px;
-  height: 400px;
+  border-radius: 4px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -744,14 +744,14 @@ ul.ul li {
     width: 70%;
     height: 70%;
   }
+  .order2 {
+    order: 2;
+  }
 }
 @media (max-width: 768px) {
   .about-section .main-heading {
     font-size: 40px;
     text-align: center;
-  }
-  .order2 {
-    order: 2;
   }
 }
 .work-section {
