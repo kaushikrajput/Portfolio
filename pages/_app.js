@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{
-            duration: 0.5,
+            duration: 0.3,
           }}
           className="base-page-size"
         >

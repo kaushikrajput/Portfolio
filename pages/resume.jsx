@@ -12,8 +12,8 @@ const Resume = () => {
                         Reach out to me via my
                         &nbsp;
                         <b><Link href="/contact">contact page</Link></b>&nbsp;.&nbsp;
-                        <b><Link href="assets/resume.pdf" target='_blank'>view</Link></b>&nbsp;or&nbsp;
-                        <b><Link href="assets/resume-img.png" target='_blank' download>download</Link></b>&nbsp;
+                        <b><Link href="assets/images/Resume.pdf" target='_blank'>view</Link></b>&nbsp;or&nbsp;
+                        <b><Link href="assets/images/Resume.pdf" target='_blank' download>download</Link></b>&nbsp;
                         the resume
                     </p>
                 </div>
