@@ -204,6 +204,20 @@ a {
   color: #000;
 }
 
+.offcanvas.show:not(.hiding) {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .hero-section {
   background-size: cover;
   background-repeat: no-repeat;
@@ -535,10 +549,6 @@ a:hover {
   gap: 50px;
 }
 
-.about-me {
-  padding: 80px 40px;
-}
-
 .about-section .main-heading {
   display: flex;
   align-items: center;
@@ -688,7 +698,7 @@ a:hover {
   margin-bottom: 30px;
   font-size: 32px;
   line-height: 1.1;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .random-facts ul {

@@ -32,7 +32,6 @@ const Resume = () => {
                     </Link>
                 </div>
             </div>
-
         </div>
     )
 }
