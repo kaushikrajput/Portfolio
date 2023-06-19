@@ -135,14 +135,13 @@ a:hover {
   animation-direction: alternate;
 }
 .random-facts {
-  padding: 100px 40px 60px 40px;
+  padding: 200px 40px 60px 40px;
 }
 .texts a {
   color: #333333;
   text-decoration: underline;
 }
 .random-facts h2 {
-  font-family: Roboto, sans-serif;
   margin-bottom: 30px;
   font-size: 32px;
   line-height: 1.1;
@@ -152,11 +151,11 @@ a:hover {
   padding: 0;
   list-style: none;
 }
-ul.ul li {
+.facts-list li {
   margin-bottom: 15px;
   font-size: 18px;
-  font-weight: 300;
-  font-family: Roboto, sans-serif;
+  color: #545454;
+  font-weight: 400;
 }
 
 .gojo-img {
@@ -165,6 +164,9 @@ ul.ul li {
 @media only screen and (max-width: 991px) {
   .about-section {
     padding: 50px 0;
+  }
+  .random-facts {
+    padding: 100px 0 40px 0;
   }
   .about-me {
     padding: 0 20px;

@@ -76,7 +76,7 @@ const About = () => {
               <div className="col-lg-5 text-center order1">
                 <div className="texts">
                   <h2>Random facts</h2>
-                  <ul className="ul">
+                  <ul className="facts-list">
                     <li>I drink a lot of coffee</li>
                     <li>I'm a bit of a clean freak</li>
                     <li>Fan of movies, TV series</li>
