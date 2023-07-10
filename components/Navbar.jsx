@@ -83,26 +83,21 @@ const Navbar = () => {
             </div>
           </div>
           <div className="menu-style">
-            <AnimatePresence wait>
+            {/* <AnimatePresence wait>
               <motion.div
                 key={router.route}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{
-                  duration: 0.3,
+                  duration: 0.2,
                 }}
                 className="base-page-size"
-              >
-                <div className="hamburger-menu" onClick={handleShow}>
-                  <Hamburger
-                    toggled={isOpen}
-                    toggle={setOpen}
-                    color="#545454"
-                  />
-                </div>
-              </motion.div>
-            </AnimatePresence>
+              ></motion.div>
+            </AnimatePresence> */}
+            <div className="hamburger-menu" onClick={handleShow}>
+              <Hamburger toggled={isOpen} toggle={setOpen} color="#545454" />
+            </div>
           </div>
         </nav>
       </header>
@@ -134,11 +129,11 @@ const Navbar = () => {
                   Projects
                 </Link>
               </li>
-              <li className="d-block nav-item hover-bottom">
+              {/* <li className="d-block nav-item hover-bottom">
                 <Link href="/resume" className="nav-links ">
                   Resume
                 </Link>
-              </li>
+              </li> */}
               <li className="d-block nav-item hover-bottom">
                 <Link href="/contact" className="nav-links ">
                   Contact
