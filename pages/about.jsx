@@ -23,8 +23,8 @@ const About = () => {
                   data-aos-duration="1000"
                 >
                   <p>
-                    Hi! My name is Kaushik and I'm doing my graduation in
-                    Computer Science. I've enjoyed turning complex problems into
+                    Hi! My name is Kaushik and I've done my graduation in
+                    Computer Application. I've enjoyed turning complex problems into
                     simple, beautiful and intuitive designs. I am a self-starter
                     with strong interpersonal skills. I work efficiently both as
                     an individual contributor as well as along with a team. I
@@ -38,7 +38,7 @@ const About = () => {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>SASS</li>
-                    <li>JavaScript (ES6+)</li>
+                    <li>JavaScript</li>
                     <li>React</li>
                   </ul>
                 </div>
@@ -91,14 +91,13 @@ const About = () => {
                       </Link>
                     </li>
                     <li>
-                      Melomaniac{" "}
+                      Spotify playlist{" "}
                       <Link
-                      target="_blank"
+                        target="_blank"
                         href="https://open.spotify.com/playlist/1VZXAlqJdvwledp0RYTUvF"
                         style={{ fontWeight: "500" }}
                       >
-                        Brighten Up 🎅🏽
-                        <small>Spotify</small>
+                        Brighten Up<small>⚡</small>
                       </Link>
                     </li>
                     <li>Gojo is my mentor</li>

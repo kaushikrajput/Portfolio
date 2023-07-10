@@ -69,11 +69,11 @@ const Navbar = () => {
                     Projects
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link href="/resume" className="nav-link">
                     Resume
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link href="/contact" className="nav-link">
                     Contact
