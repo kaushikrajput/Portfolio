@@ -50,7 +50,7 @@ const About = () => {
                   data-aos-duration="1400"
                 >
                   <Image
-                    src="/assets/images/p2.jpg"
+                    src="/assets/images/p1.jpeg"
                     alt=""
                     className="img-fluid imgs"
                     width={500}
