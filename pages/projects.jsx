@@ -46,6 +46,7 @@ const Projects = () => {
                 />
               </a>
               <a
+                title="skinfotechies"
                 href="https://skinfotechies.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -63,6 +64,7 @@ const Projects = () => {
                 />
               </a>
               <a
+                title="travelryy"
                 href="https://travelryy.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -80,6 +82,7 @@ const Projects = () => {
                 />
               </a>
               <a
+                title="redux-store"
                 href="https://reduxxtoolkitstore.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -97,6 +100,7 @@ const Projects = () => {
                 />
               </a>
               <a
+                title="weather-app"
                 href="https://weatherzen.netlify.app/"
                 target="_blank"
                 rel="noreferrer"

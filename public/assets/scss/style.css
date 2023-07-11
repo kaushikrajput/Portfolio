@@ -819,7 +819,6 @@ a:hover {
 }
 
 .card-style {
-  height: 310px;
   margin: 0px 0px 1.5em;
   position: relative;
   cursor: pointer;
@@ -829,10 +828,8 @@ a:hover {
   background-position: center center;
   background-repeat: no-repeat;
   overflow: hidden;
-  padding: 1.4rem 2rem;
   display: flex;
   align-items: flex-end;
-  border-radius: 4px;
   -moz-column-break-inside: avoid;
        break-inside: avoid;
   border: 1px solid #d4f0ff;
@@ -854,26 +851,6 @@ a:hover {
   background: radial-gradient(circle at center center, white 10%, whitesmoke 11%, whitesmoke 100%);
 }
 
-.card-style::after {
-  content: "";
-  pointer-events: none;
-  position: absolute;
-  z-index: 1;
-  inset: 0px;
-  opacity: 0.3;
-  background: linear-gradient(rgba(0, 0, 0, 0.1) 10%, rgba(0, 0, 0, 0.78) 80%);
-}
-
-.card-style img {
-  position: absolute;
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100% !important;
-  height: 100% !important;
-  left: 0px !important;
-  top: 0px !important;
-}
-
 .card-style:hover div.content-slate {
   z-index: 999;
   transform: none;
@@ -881,7 +858,6 @@ a:hover {
 }
 
 .card-section div.content-slate {
-  /*opacity: 0;*/
   transform: translateY(10%);
   transition: opacity 300ms ease-in-out 0s, transform 300ms ease-in-out 0s;
 }
@@ -906,10 +882,6 @@ a:hover {
   animation-fill-mode: both;
   -moz-column-gap: 1.5em;
        column-gap: 1.5em;
-}
-
-.card-section a {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .work-section .to-resume-page p {
