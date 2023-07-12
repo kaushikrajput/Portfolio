@@ -13,25 +13,7 @@
   white-space: nowrap;
   color: #000;
 }
-// ------------------------- sidebar ------------------------------
 
-.offcanvas-backdrop.show {
-  opacity: 0.8;
-}
-.offcanvas.offcanvas-start {
-  right: 0 !important;
-  left: auto;
-  transform: translateX(100%);
-}
-.offcanvas {
-  max-width: 544px;
-}
-.offcanvas-body {
-  position: relative;
-  padding: 32px 32px 64px;
-  overflow-x: overlay;
-  max-width: 100%;
-}
 
 .sidebar-top {
   margin-bottom: 32px;

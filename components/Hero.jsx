@@ -24,6 +24,7 @@ const Hero = () => {
                   Front-end developer who writes clean, elegant and efficient
                   code.{" "}
                 </p>
+                <br />
                 <div className="to-about-page animate__animated animate__fadeIn ">
                   <Link href="/about">
                     <p>
