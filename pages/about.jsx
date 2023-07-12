@@ -67,9 +67,9 @@ const About = () => {
                   <Image
                     src="/assets/images/gojo5.jpg"
                     alt=""
-                    className="img-fluid gojo-img"
+                    className="gojo-img"
                     width={350}
-                    height={500}
+                    height={350}
                   />
                 </div>
               </div>
@@ -106,27 +106,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          {/* <div className="spotify-playlist">
-            <div className="my-playlist">
-              <h2>My Playlist.</h2>
-            </div>
-            <div className="playlist-name">
-              <Link
-                href="https://open.spotify.com/playlist/1VZXAlqJdvwledp0RYTUvF"
-                target="_blank"
-              >
-                Brighten Up 🎅🏽
-                <small> Spotify</small>
-              </Link>
-              <Link
-                href="https://open.spotify.com/playlist/1VZXAlqJdvwledp0RYTUvF"
-                className="float-right"
-              >
-                View Playlist
-              </Link>
-              <p>Get happy with today's dose of feel-good songs!</p>
-            </div>
-          </div> */}
+          
           <div className="to-work-page">
             <Link href="/projects">
               <p className=" mb-5 mt-5">

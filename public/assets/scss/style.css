@@ -706,6 +706,21 @@ a:hover {
   font-weight: 400;
 }
 
+.mentor-img {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.mentor-img img {
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+}
+
+.mentor-img:hover img {
+  filter: grayscale(0);
+}
+
 @media only screen and (max-width: 991px) {
   .about-section {
     padding: 50px 0;
@@ -743,8 +758,8 @@ a:hover {
     margin-bottom: 50px;
   }
   .gojo-img {
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
   }
   .order2 {
     order: 2;

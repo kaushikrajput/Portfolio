@@ -70,7 +70,7 @@ const Projects = () => {
                 rel="noreferrer"
                 className="card-style"
                 data-aos="fade-down"
-                data-aos-duration="1400"
+                data-aos-duration="1200"
                 data-aos-once="true"
               >
                 <Image
