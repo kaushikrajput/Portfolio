@@ -7,9 +7,7 @@
   grid-template-columns: 3fr 2fr;
   gap: 50px;
 }
-// .about-me {
-//   padding: 80px 40px;
-// }
+
 .about-section .main-heading {
   display: flex;
   align-items: center;
@@ -84,7 +82,7 @@ p > a:hover::after {
   margin-bottom: 10px;
   padding-left: 20px;
   font-size: 13px;
-  font-weight: 100;
+  font-weight: 400;
 }
 .skills ul.skills-list li::before {
   content: "▹";
@@ -116,8 +114,7 @@ p > a:hover::after {
   margin: 50px 0 0;
   color: #000;
   font-size: 15px;
-  font-weight: 100;
-  letter-spacing: normal;
+  font-weight: 400;
 }
 a:hover {
   text-decoration: underline;
@@ -149,7 +146,7 @@ a:hover {
 }
 .facts-list li {
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 17px;
   color: #545454;
   font-weight: 400;
 }

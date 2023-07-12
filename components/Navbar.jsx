@@ -1,12 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Sling as Hamburger } from "hamburger-react";
 import Link from "next/link";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Image from "next/image";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { motion, AnimatePresence } from "framer-motion";
-import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -17,29 +13,7 @@ const Navbar = () => {
   };
 
   const handleShow = () => setShow(true);
-
   const [isOpen, setOpen] = useState(false);
-
-  useEffect(() => {
-    AOS.init({ once: true });
-  });
-
-  // const [active, setActive] = useState(false)
-
-  // const [theme, setTheme] = useState("light-theme");
-
-  // const toggleTheme = () => {
-  //     if (theme === "dark-theme") {
-  //         setTheme("light-theme");
-  //     } else {
-  //         setTheme("dark-theme");
-  //     }
-  // };
-
-  // useEffect(() => {
-  //     document.body.className = theme;
-  // }, [theme]);
-  const router = useRouter();
 
   return (
     <>
@@ -83,18 +57,6 @@ const Navbar = () => {
             </div>
           </div>
           <div className="menu-style">
-            {/* <AnimatePresence wait>
-              <motion.div
-                key={router.route}
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{
-                  duration: 0.2,
-                }}
-                className="base-page-size"
-              ></motion.div>
-            </AnimatePresence> */}
             <div className="hamburger-menu" onClick={handleShow}>
               <Hamburger toggled={isOpen} toggle={setOpen} color="#545454" />
             </div>

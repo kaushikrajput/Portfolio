@@ -51,13 +51,6 @@
   padding: 0px;
   background: none 0px 80% / 100% 0.3em no-repeat;
   position: relative;
-  // background-attachment: initial;
-  // background-origin: initial;
-  // background-clip: initial;
-  // background-color: initial;
-  // background-repeat: no-repeat;
-  // background-position: 0px 80%;
-  // background-size: 100% 0.3em;
 }
 .hero-section .intro-text::after {
   left: -2px;
@@ -215,14 +208,14 @@
   margin: 20px 0 0;
   color: #545454;
   line-height: 2.3;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 300;
 }
 .hero-section .to-about-page p {
   margin: 50px 0 0;
   color: #545454;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: normal;
 }
 

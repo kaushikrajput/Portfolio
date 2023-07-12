@@ -1,7 +1,5 @@
-import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Offcanvas from "react-bootstrap/Offcanvas";
 import { projectsDATA } from "../components/ProjectData";
 
 const Projects = () => {
@@ -9,7 +7,6 @@ const Projects = () => {
   // const handleClose = () => setShow(false);
   // const handleShow = () => setShow(true);
   // const uniqueId=()=>{
-
   // }
 
   return (
@@ -27,96 +24,27 @@ const Projects = () => {
               </h2>
             </div>
             <div className="card-section">
-              <a
-                title="Dashboard"
-                href="https://panell.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="card-style"
-                data-aos="fade-down"
-                data-aos-duration="1000"
-                data-aos-once="true"
-              >
-                <Image
-                  src="/assets/images/project5.jpeg"
-                  className="img-style img-fluid"
-                  alt=""
-                  width={500}
-                  height={500}
-                />
-              </a>
-              <a
-                title="skinfotechies"
-                href="https://skinfotechies.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="card-style"
-                data-aos="fade-down"
-                data-aos-duration="1400"
-                data-aos-once="true"
-              >
-                <Image
-                  src="/assets/images/project.jpeg"
-                  className="img-style img-fluid"
-                  alt=""
-                  width={500}
-                  height={500}
-                />
-              </a>
-              <a
-                title="Travel-site"
-                href="https://travelryy.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="card-style"
-                data-aos="fade-down"
-                data-aos-duration="1200"
-                data-aos-once="true"
-              >
-                <Image
-                  src="/assets/images/project2.png"
-                  className="img-style img-fluid"
-                  alt=""
-                  width={500}
-                  height={500}
-                />
-              </a>
-              <a
-                title="Redux-store"
-                href="https://reduxxtoolkitstore.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="card-style"
-                data-aos="fade-down"
-                data-aos-duration="1000"
-                data-aos-once="true"
-              >
-                <Image
-                  src="/assets/images/project4.png"
-                  className="img-style img-fluid"
-                  alt=""
-                  width={500}
-                  height={500}
-                />
-              </a>
-              <a
-                title="Weather-app"
-                href="https://weatherzen.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className="card-style"
-                data-aos="fade-down"
-                data-aos-duration="1000"
-                data-aos-once="true"
-              >
-                <Image
-                  src="/assets/images/weather-Image.jpeg"
-                  className="img-style img-fluid"
-                  alt=""
-                  width={500}
-                  height={500}
-                />
-              </a>
+              {projectsDATA.map((item) => {
+                return (
+                  <div>
+                    <a
+                      title={item.title}
+                      href={item.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="card-style"
+                    >
+                      <Image
+                        src={item.imageUrl}
+                        className="img-style img-fluid"
+                        alt=""
+                        width={500}
+                        height={500}
+                      />
+                    </a>
+                  </div>
+                );
+              })}
             </div>
 
             <div className="to-resume-page">
@@ -136,29 +64,6 @@ const Projects = () => {
           </div>
         </div>
       </section>
-
-      {/*<div className='col-lg-5 '>
-    <div className='project-content'>
-      <p className='project-overline'>Featured Project</p>
-      <div className='project-description'>
-        <p>I've built this Multi-page digital agency website using react. In this project I've used react-routing, reusable-components, hooks, axios api etc.</p>
-      </div>
-      <ul className='project-tech-list'>
-        <li>React</li>
-        <li>Module CSS</li>
-        <li>Bootstrap</li>
-        <li>Axios API</li>
-      </ul>
-      <div className='project-links'>
-        <a href="https://github.com/kaushikrajput/skinfotechiess" aria-label="GitHub" target="_blank" rel="noreferrer">
-          <i className="fa-brands fa-github"></i>
-        </a>
-        <a href="https://skinfotechies.netlify.app/" aria-label="GitHub" target="_blank" rel="noreferrer">
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
-        </a>
-      </div>
-    </div>
-  </div>*/}
     </>
   );
 };

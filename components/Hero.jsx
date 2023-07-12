@@ -9,31 +9,18 @@ const Hero = () => {
           <div className="row align-item-center justify-content-center">
             <div className="col-md-10">
               <div className="text-block">
-                <h1
-                  data-text="I'm Kaushik Rajput"
-                  className="intro-text"
-                  data-aos="fade-down"
-                  data-aos-duration="2000"
-                >
+                <h1 data-text="I'm Kaushik Rajput" className="intro-text">
                   <mark className="mark">I’m Kaushik Rajput</mark>
                 </h1>
-                <div
-                  className="big-heading"
-                  data-aos="fade-down"
-                  data-aos-duration="1600"
-                >
+                <div className="big-heading">
                   <h3>I build things for the web.</h3>
                 </div>
-                <p data-aos="fade-down" data-aos-duration="1200">
+                <p>
                   {" "}
-                  Front end developer who writes clean, elegant and efficient
+                  Front-end developer who writes clean, elegant and efficient
                   code.{" "}
                 </p>
-                <div
-                  className="to-about-page"
-                  data-aos="fade-down"
-                  data-aos-duration="1000"
-                >
+                <div className="to-about-page">
                   <Link href="/about">
                     <p>
                       See More About Me

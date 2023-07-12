@@ -17,7 +17,7 @@ export const projectsDATA = [
   },
   {
     id:3,
-    title: "Tarvelryy",
+    title: "Tarvel-site",
     description: "The Tarvel",
     about: "This is the Travel Website ",
     link: "https://travelryy.netlify.app/",
@@ -25,7 +25,7 @@ export const projectsDATA = [
   },
   {
     id:4,
-    title: "Redux-Toolkit",
+    title: "Redux-store",
     description: "The Redux-Toolkit",
     about: "This is the Redux-Toolkit Test ",
     link: "https://reduxxtoolkitstore.netlify.app/",
@@ -33,7 +33,7 @@ export const projectsDATA = [
   },
   {
     id:5,
-    title: "Weather",
+    title: "Weather-app",
     description: "The Weather",
     about: "This is the Weather app ",
     link: "https://weatherzen.netlify.app/",
