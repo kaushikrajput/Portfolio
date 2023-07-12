@@ -64,7 +64,7 @@ const Projects = () => {
                 />
               </a>
               <a
-                title="travelryy"
+                title="Travel-site"
                 href="https://travelryy.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -82,7 +82,7 @@ const Projects = () => {
                 />
               </a>
               <a
-                title="redux-store"
+                title="Redux-store"
                 href="https://reduxxtoolkitstore.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
@@ -100,7 +100,7 @@ const Projects = () => {
                 />
               </a>
               <a
-                title="weather-app"
+                title="Weather-app"
                 href="https://weatherzen.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
