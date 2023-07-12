@@ -18,27 +18,25 @@ const Projects = () => {
               <h2 className="main-heading">Projects</h2>
             </div>
             <div className="card-section">
-              {projectsDATA.map((item) => {
-                return (
-                  <div>
-                    <a
-                      title={item.title}
-                      href={item.link}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="card-style"
-                    >
-                      <Image
-                        src={item.imageUrl}
-                        className="img-style img-fluid"
-                        alt=""
-                        width={500}
-                        height={500}
-                      />
-                    </a>
-                  </div>
-                );
-              })}
+              {projectsDATA.map((item) => (
+                <div key={item.id}>
+                  <a
+                    title={item.title}
+                    href={item.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="card-style"
+                  >
+                    <Image
+                      src={item.imageUrl}
+                      className="img-style img-fluid"
+                      alt=""
+                      width={500}
+                      height={500}
+                    />
+                  </a>
+                </div>
+              ))}
             </div>
 
             <div className="to-resume-page">
