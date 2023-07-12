@@ -22,9 +22,14 @@ body {
   overflow-x: hidden;
   line-height: 1.3;
 }
-h1,h2{
-  font-family: "Blorado" , sans-serif;
+h1,
+h2 {
+  font-family: "Blorado", sans-serif;
 }
 a {
   text-decoration: none;
+}
+
+.my-element {
+  --animate-duration: 0.5s;
 }

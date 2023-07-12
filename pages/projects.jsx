@@ -15,13 +15,7 @@ const Projects = () => {
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-md-12">
-              <h2
-                className="main-heading"
-                data-aos="fade-down"
-                data-aos-duration="1600"
-              >
-                Projects
-              </h2>
+              <h2 className="main-heading">Projects</h2>
             </div>
             <div className="card-section">
               {projectsDATA.map((item) => {
