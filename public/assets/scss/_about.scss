@@ -271,7 +271,8 @@ a:hover {
 }
 .mentor-img:hover img {
   transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -311,14 +312,14 @@ a:hover {
   .texts {
     margin-bottom: 50px;
   }
-  .mentor-img img{
+  .mentor-img img {
     width: 100%;
     height: auto;
   }
-  .mentor-img{
+  .mentor-img {
     margin: auto;
   }
- 
+
   .order2 {
     order: 2;
   }
@@ -328,5 +329,13 @@ a:hover {
   .about-section .main-heading {
     font-size: 40px;
     text-align: center;
+  }
+  .mentor-img:hover img {
+    transform: none;
+  }
+  .mentor-img img {
+    transform: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   }
 }
