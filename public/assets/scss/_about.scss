@@ -156,7 +156,7 @@ a:hover {
     display: flex;
   }
 
-   h2 {
+  h2 {
     color: #000;
     font-size: 32px;
     -webkit-animation: mainFadeIn 2s forwards;
@@ -256,19 +256,22 @@ a:hover {
   font-weight: 400;
 }
 .mentor-img {
-  width: 80%;
+  width: 50%;
   height: auto;
-  margin: auto;
-}
-.mentor-img img {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+  margin: auto 20px;
 }
 .mentor-img:hover img {
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0);
+  transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+}
+.mentor-img img {
+  transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
+  box-shadow: -80px 60px 15px 5px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s;
+  transform-style: preserve-3d;
+}
+.mentor-img:hover img {
+  transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -297,7 +300,7 @@ a:hover {
     text-align: center;
   }
   .img-card {
-    width: 70%;
+    width: 65%;
     display: flex;
     position: relative;
     justify-content: center;
@@ -308,10 +311,14 @@ a:hover {
   .texts {
     margin-bottom: 50px;
   }
-  .gojo-img {
-    width: 80%;
-    height: 80%;
+  .mentor-img img{
+    width: 100%;
+    height: auto;
   }
+  .mentor-img{
+    margin: auto;
+  }
+ 
   .order2 {
     order: 2;
   }

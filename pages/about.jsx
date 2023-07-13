@@ -54,7 +54,6 @@ const About = () => {
                   <Image
                     src="/assets/images/gojo5.jpg"
                     alt=""
-                    className="gojo-img"
                     width={350}
                     height={350}
                   />
