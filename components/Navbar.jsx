@@ -68,7 +68,7 @@ const Navbar = () => {
         <Offcanvas.Header >
           <Offcanvas.Title></Offcanvas.Title>
         </Offcanvas.Header>
-        <Offcanvas.Body>
+        <Offcanvas.Body >
             <button className="close-nav" onClick={handleClose}>
               <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 11.293l10.293-10.293.707.707-10.293 10.293 10.293 10.293-.707.707-10.293-10.293-10.293 10.293-.707-.707 10.293-10.293-10.293-10.293.707-.707 10.293 10.293z"></path>

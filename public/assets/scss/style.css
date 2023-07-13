@@ -634,7 +634,6 @@ p > a:hover::after {
 }
 
 .about-section .to-work-page p {
-  margin: 50px 0 0;
   color: #000;
   font-size: 15px;
   font-weight: 400;
@@ -1096,7 +1095,6 @@ a:hover {
   background: #d0d0d0;
 }*/
 .resume-section .to-contact-page p {
-  margin: 50px 0 0;
   color: #000;
   font-size: 13px;
   letter-spacing: normal;
