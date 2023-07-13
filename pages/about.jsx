@@ -9,16 +9,9 @@ const About = () => {
         <div className="container">
           <div className="about-me">
             <div className="row align-items-center justify-content-center">
-              <h2
-                className="main-heading"
-              >
-                About Me
-              </h2>
+              <h2 className="main-heading">About Me</h2>
               <div className="col-lg-7 order1">
-                <div
-                  className="text-card skills"
-                  
-                >
+                <div className="text-card skills">
                   <p>
                     Hi! My name is Kaushik and I've done my graduation in
                     Computer Application. I've enjoyed turning complex problems
@@ -42,10 +35,7 @@ const About = () => {
                 </div>
               </div>
               <div className="col-lg-5 order2">
-                <div
-                  className="img-card"
-                
-                >
+                <div className="img-card">
                   <Image
                     src="/assets/images/p1.jpeg"
                     alt=""
@@ -71,8 +61,11 @@ const About = () => {
                 </div>
               </div>
               <div className="col-lg-5 text-center order1">
+                  <div className="text-ani">
+                    <span className="block"></span>
+                    <h2>Random facts <span></span></h2>
+                  </div>
                 <div className="texts">
-                  <h2>Random facts</h2>
                   <ul className="facts-list">
                     <li>I drink a lot of coffee</li>
                     <li>I'm a bit of a clean freak</li>
