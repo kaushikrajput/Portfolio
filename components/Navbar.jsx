@@ -64,7 +64,7 @@ const Navbar = () => {
         </nav>
       </header>
 
-      <Offcanvas show={show} onHide={handleClose} scroll="true" >
+      <Offcanvas show={show} onClick={handleClose} scroll="true" >
         <Offcanvas.Header >
           <Offcanvas.Title></Offcanvas.Title>
         </Offcanvas.Header>
