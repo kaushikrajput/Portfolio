@@ -29,7 +29,7 @@ const Contact = (props) => {
           <div className="col-md-6">
             <form action="https://formspree.io/f/mrgvypnk" method="POST">
               <div className="fields">
-                <div className="fields half">
+                <div className="fields ">
                   <input
                     type="text"
                     name="name"
@@ -41,8 +41,11 @@ const Contact = (props) => {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                   />
+                  <span class="focus-border">
+                    <i></i>
+                  </span>
                 </div>
-                <div className="fields half">
+                <div className="fields ">
                   <input
                     type="email"
                     name="email"
@@ -54,8 +57,11 @@ const Contact = (props) => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
+                  <span class="focus-border">
+                    <i></i>
+                  </span>
                 </div>
-                <div className="fields half">
+                <div className="fields ">
                   <textarea
                     rows="5"
                     name="message"
@@ -67,6 +73,9 @@ const Contact = (props) => {
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                   />
+                  <span class="focus-border">
+                    <i></i>
+                  </span>
                 </div>
                 <button
                   className="btn btn-default"
@@ -838,16 +847,16 @@ const Contact = (props) => {
             </svg>
           </div>
         </div>
-          <div className="to-home-page mb-2">
-            <Link href="/">
-              <p className="mb-2">
-                Go Back Home
-                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"></path>
-                </svg>
-              </p>
-            </Link>
-          </div>
+        <div className="to-home-page mb-2">
+          <Link href="/">
+            <p className="mb-2">
+              Go Back Home
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"></path>
+              </svg>
+            </p>
+          </Link>
+        </div>
       </div>
     </div>
   );
