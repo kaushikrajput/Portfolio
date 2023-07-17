@@ -32,6 +32,9 @@ const About = () => {
                     <li>JavaScript</li>
                     <li>React</li>
                   </ul>
+                  {/* <div className="resume">
+                    <span className="resume-btn">Resume</span>
+                  </div> */}
                 </div>
               </div>
               <div className="col-lg-5 order2">
@@ -60,10 +63,12 @@ const About = () => {
                 </div>
               </div>
               <div className="col-lg-5 text-center order1">
-                  <div className="text-ani">
-                    <span className="block"></span>
-                    <h2>Random facts <span></span></h2>
-                  </div>
+                <div className="text-ani">
+                  <span className="block"></span>
+                  <h2>
+                    Random facts <span></span>
+                  </h2>
+                </div>
                 <div className="texts">
                   <ul className="facts-list">
                     <li>I drink a lot of coffee</li>

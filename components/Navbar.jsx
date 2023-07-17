@@ -65,9 +65,7 @@ const Navbar = () => {
       </header>
 
       <Offcanvas show={show} onClick={handleClose} scroll="true" >
-        <Offcanvas.Header >
-          <Offcanvas.Title></Offcanvas.Title>
-        </Offcanvas.Header>
+        
         <Offcanvas.Body >
             <button className="close-nav" onClick={handleClose}>
               <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
@@ -75,19 +73,19 @@ const Navbar = () => {
               </svg>
             </button>
           <div className="navbar-collapse ">
-            <ul className="nav-list ml-auto">
-              <li className="d-block nav-item hover-bottom">
-                <Link href="/" className="nav-links">
+            <ul className="nav-list ml-auto  animate__animated animate__fadeIn">
+              <li className="d-block nav-item hover-bottom ">
+                <Link href="/" className="nav-links animate__delay-1s">
                   Home
                 </Link>
               </li>
-              <li className="d-block nav-item hover-bottom">
-                <Link href="/about" className="nav-links ">
+              <li className="d-block nav-item hover-bottom ">
+                <Link href="/about" className="nav-links animate__delay-3s">
                   About
                 </Link>
               </li>
-              <li className="d-block nav-item hover-bottom">
-                <Link href="/projects" className="nav-links ">
+              <li className="d-block nav-item hover-bottom ">
+                <Link href="/projects" className="nav-links animate__delay-4s">
                   Projects
                 </Link>
               </li>
@@ -96,8 +94,8 @@ const Navbar = () => {
                   Resume
                 </Link>
               </li> */}
-              <li className="d-block nav-item hover-bottom">
-                <Link href="/contact" className="nav-links ">
+              <li className="d-block nav-item hover-bottom ">
+                <Link href="/contact" className="nav-links animate__delay-5s">
                   Contact
                 </Link>
               </li>

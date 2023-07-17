@@ -94,11 +94,12 @@
 }
 
 .work-section .to-resume-page p {
-  color: #000;
+  color: #545454;
   font-size: 15px;
   font-weight: 400;
 }
-a:hover {
+.to-resume-page a:hover {
+  color: #0a58ca;
   text-decoration: underline;
 }
 

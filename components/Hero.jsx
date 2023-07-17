@@ -1,11 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import "animate.css";
 
 const Hero = () => {
   return (
     <>
-      <section className="hero-section ">
+      <section className="hero-section global">
         <div className="container">
           <div className="row align-item-center justify-content-center">
             <div className="col-md-10">
@@ -25,7 +24,7 @@ const Hero = () => {
                   code.{" "}
                 </p>
                 <br />
-                <div className="to-about-page animate__animated animate__fadeIn ">
+                <div className="to-about-page animate__animated animate__fadeIn wrapper">
                   <Link href="/about">
                     <p>
                       See More About Me

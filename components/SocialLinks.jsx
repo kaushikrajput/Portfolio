@@ -3,8 +3,8 @@ import React from "react";
 const SocialLinks = () => {
   return (
     <>
-      <div className="leftSide-style mediaq1">
-        <ul className="social-style">
+      <div className="leftSide-style mediaq1 ">
+        <ul className="social-icon">
           <li>
             <a
               href="https://github.com/kaushikrajput"
@@ -46,14 +46,16 @@ const SocialLinks = () => {
             </a>
           </li>
         </ul>
+        <span className="stick animate__animated animate__fadeInUpBig"></span>
       </div>
 
       <div className="rightSide-style mediaq2">
-        <div className="email-style">
+        <div className="email-style hov">
           <a href="mailto:kaushikrajput0926@gmail.com">
             kaushikrajput0926@gmail.com
           </a>
         </div>
+        <span className="stick animate__animated animate__fadeInUpBig"></span>
       </div>
     </>
   );
