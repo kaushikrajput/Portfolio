@@ -20,7 +20,7 @@ export const projectsDATA = [
     title: "Tarvel-site",
     description: "The Tarvel",
     about: "This is the Travel Website ",
-    link: "https://travelryy.netlify.app/",
+    link: "https://travelrry.netlify.app/",
     imageUrl: "/assets/images/project2.png",
   },
   {
