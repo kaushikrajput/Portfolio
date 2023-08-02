@@ -63,12 +63,7 @@ const About = () => {
                 </div>
               </div>
               <div className="col-lg-5 text-center order1">
-                <div className="text-ani">
-                  <span className="block"></span>
-                  <h2>
-                    Random facts <span></span>
-                  </h2>
-                </div>
+                <h2>Random facts</h2>
                 <div className="texts">
                   <ul className="facts-list">
                     <li>I drink a lot of coffee</li>
