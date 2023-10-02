@@ -15,13 +15,13 @@ const Resume = () => {
             </b>
             &nbsp;.&nbsp;
             <b>
-              <Link href="assets/images/Resume.pdf" target="_blank">
+              <Link href="assets/images/Resume2.pdf" target="_blank">
                 view
               </Link>
             </b>
             &nbsp;or&nbsp;
             <b>
-              <Link href="assets/images/Resume.pdf" target="_blank" download>
+              <Link href="assets/images/Resume2.pdf" target="_blank" download>
                 download
               </Link>
             </b>
@@ -31,7 +31,7 @@ const Resume = () => {
         <div className="resume-image">
           <Link href="/resume">
             <Image
-              src="/assets/images/resume-img.png"
+              src="/assets/images/Resume.png"
               alt=""
               className="img-fluid"
               width={500}
