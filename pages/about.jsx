@@ -50,7 +50,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="random-facts">
+          {/* <div className="random-facts">
             <div className="row justify-content-center order1 ">
               <div className="col-lg-7 text-center order2">
                 <div className="mentor-img">
@@ -94,7 +94,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="to-work-page">
             <Link href="/projects">
