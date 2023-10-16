@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Resume = () => {
   return (
-    <div className="resume-section">
+    <div className="resume">
       <div className="container">
         <div className="resume-title ">
           <h2 className="main-heading">Resumé</h2>

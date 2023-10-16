@@ -18,7 +18,7 @@ const Contact = (props) => {
   //}
 
   return (
-    <div className="contact-page">
+    <div className="contact">
       <div className="container">
         <div className="row ">
           <h2 className="main-heading">Contact</h2>

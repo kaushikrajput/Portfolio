@@ -3,19 +3,13 @@ import Image from "next/image";
 import { projectsDATA } from "../components/ProjectData";
 
 const Projects = () => {
-  // const [show, setShow] = useState(false);
-  // const handleClose = () => setShow(false);
-  // const handleShow = () => setShow(true);
-  // const uniqueId=()=>{
-  // }
-
   return (
     <>
-      <section className="work-section " id="work">
+      <section className="projects " id="work">
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-md-12">
-              <h2 className="main-heading">Projects</h2>
+              <h2>Projects</h2>
             </div>
             <div className="card-section">
               {projectsDATA.map((item) => (
@@ -29,7 +23,7 @@ const Projects = () => {
                   >
                     <Image
                       src={item.imageUrl}
-                      className="img-style img-fluid"
+                      className="img-style "
                       alt=""
                       width={500}
                       height={500}

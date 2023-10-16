@@ -1,7 +1,7 @@
-.resume-section {
-    padding: 0px 200px;
-  }
-  .resume-section .main-heading {
+.resume {
+  padding: 0px 200px;
+
+  .main-heading {
     display: flex;
     align-items: center;
     position: relative;
@@ -18,7 +18,7 @@
     font-weight: 400;
     color: #545454;
   }
-  
+
   b a {
     color: #000;
   }
@@ -26,7 +26,7 @@
     color: #007bff;
     text-decoration: underline !important;
   }
-  
+
   .resume-image {
     margin-top: 70px;
     width: 80%;
@@ -36,7 +36,37 @@
     text-align: center;
     justify-content: center;
   }
-  /*.flat-button {
+
+  .to-contact-page p {
+    color: #000;
+    font-size: 13px;
+    letter-spacing: normal;
+  }
+
+  p svg {
+    margin-left: 1rem;
+    animation-name: forward;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+}
+
+@media (max-width: 991px) {
+  .resume {
+    padding: 50px 0;
+  }
+  .resume-image {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .resume .main-heading {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+/*.flat-button {
     color: #fd2155;
     font-size: 14px;
     letter-spacing: 4px;
@@ -115,32 +145,3 @@
   .flat-button:hover span.text:after {
     background: #d0d0d0;
   }*/
-  .resume-section .to-contact-page p {
-    color: #000;
-    font-size: 13px;
-    letter-spacing: normal;
-  }
-  
-  .resume-section p svg {
-    margin-left: 1rem;
-    animation-name: forward;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-  }
-  
-  @media (max-width: 991px) {
-    .resume-section {
-      padding: 50px 0;
-    }
-    .resume-image {
-      width: 100%;
-    }
-  }
-  @media (max-width: 768px) {
-    .resume-section .main-heading {
-      font-size: 40px;
-      text-align: center;
-    }
-  }
-  

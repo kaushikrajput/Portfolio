@@ -1,128 +1,109 @@
-.work-section {
+.projects {
   color: #fff;
   padding: 0px 200px;
   margin: 0 auto;
-}
-.work-section .main-heading {
-  display: flex;
-  align-items: center;
-  position: relative;
-  font-weight: 900;
-  margin: 64px 0px 28px;
-  font-size: 50px;
-  white-space: nowrap;
-  color: #000;
+
+  h2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-weight: 900;
+    margin: 64px 0px 28px;
+    font-size: 50px;
+    white-space: nowrap;
+    color: #000;
+  }
+
+  .card-section {
+    column-count: 2;
+    margin: 50px 0px;
+    column-gap: 1.5em;
+
+    .card-style {
+      margin: 0px 0px 1.5em;
+      position: relative;
+      cursor: pointer;
+      object-fit: cover;
+      background-color: #f4f1ee;
+      background-position: center center;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      display: flex;
+      align-items: flex-end;
+      break-inside: avoid;
+      border: 1px solid #d4f0ff;
+
+      &:before {
+        width: 100%;
+        content: "";
+        pointer-events: none;
+        display: block;
+        position: absolute;
+        inset: 0px;
+        z-index: -1;
+        background: radial-gradient(
+          circle at center center,
+          white 10%,
+          whitesmoke 11%,
+          whitesmoke 100%
+        );
+      }
+      &:hover div.content-slate {
+        z-index: 999;
+        transform: none;
+        opacity: 1;
+      }
+      &:hover {
+        transform: translateY(-7.5px);
+        transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+      }
+    }
+
+    .img-style {
+      width: 100%;
+      height: auto;
+    }
+
+    div.content-slate {
+      transform: translateY(10%);
+      transition: opacity 300ms ease-in-out 0s, transform 300ms ease-in-out 0s;
+    }
+
+    p {
+      font-size: 20px;
+      color: rgb(109, 43, 43) !important;
+    }
+  }
+  .to-resume-page p {
+    color: #545454;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .to-resume-page a:hover {
+    color: #0a58ca;
+    text-decoration: underline;
+  }
+
+  p svg {
+    margin-left: 1rem;
+    animation-name: forward;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
 }
 
-.sidebar-top {
-  margin-bottom: 32px;
-  padding-bottom: 13px;
-  border-bottom: 1px solid #eaeaea;
-  display: flex;
-  justify-content: space-between;
-}
-.sidebar-top a:hover {
-  color: inherit;
-}
-.closebutton {
-  border: none;
-  background: transparent;
-  padding: 0 9px;
-}
-.back-to-projects {
-  font-size: 15px;
-  color: #000;
-  font-weight: 900;
-}
-.card-style {
-  margin: 0px 0px 1.5em;
-  position: relative;
-  cursor: pointer;
-  object-fit: cover;
-  background-color: #f4f1ee;
-  background-position: center center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  display: flex;
-  align-items: flex-end;
-  break-inside: avoid;
-  border: 1px solid #d4f0ff;
-}
-.card-section .card-style:hover {
-  transform: translateY(-7.5px);
-  transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
-}
-.card-style::before {
-  width: 100%;
-  content: "";
-  pointer-events: none;
-  display: block;
-  position: absolute;
-  inset: 0px;
-  z-index: -1;
-  background: radial-gradient(
-    circle at center center,
-    white 10%,
-    whitesmoke 11%,
-    whitesmoke 100%
-  );
-}
-
-.card-style:hover div.content-slate {
-  z-index: 999;
-  transform: none;
-  opacity: 1;
-}
-
-.card-section div.content-slate {
-  transform: translateY(10%);
-  transition: opacity 300ms ease-in-out 0s, transform 300ms ease-in-out 0s;
-}
-.card-section h3 {
-  color: rgb(141, 50, 50);
-  font-size: 15px;
-  font-weight: 800;
-}
-.card-section p {
-  font-size: 20px;
-  color: rgb(109, 43, 43) !important;
-}
-.card-section {
-  column-count: 2;
-  margin: 50px 0px;
-  column-gap: 1.5em;
-}
-
-.work-section .to-resume-page p {
-  color: #545454;
-  font-size: 15px;
-  font-weight: 400;
-}
-.to-resume-page a:hover {
-  color: #0a58ca;
-  text-decoration: underline;
-}
-
-.work-section p svg {
-  margin-left: 1rem;
-  animation-name: forward;
-  animation-duration: 0.5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
 @media (max-width: 991px) {
   .card-section {
     column-count: 1;
   }
-}
-@media (max-width: 991px) {
-  .work-section {
+  .projects {
     padding: 50px 0px;
   }
 }
 
 @media (max-width: 768px) {
-  .work-section .main-heading {
+  .projects .main-heading {
     font-size: 40px;
     text-align: center;
   }

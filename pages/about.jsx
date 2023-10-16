@@ -5,7 +5,7 @@ import Link from "next/link";
 const About = () => {
   return (
     <>
-      <section className="about-section" id="about">
+      <section className="about" id="about">
         <div className="container">
           <div className="about-me">
             <div className="row align-items-center justify-content-center">
@@ -13,10 +13,10 @@ const About = () => {
               <div className="col-lg-7 order1">
                 <div className="text-card skills">
                   <p>
-                    Hi! My name is Kaushik and I've done my graduation in
+                    Hi! I'm Kaushik and I'm pursuing Master's degree in
                     Computer Application. I've enjoyed turning complex problems
-                    into simple, beautiful and intuitive designs. I am a
-                    self-starter with strong interpersonal skills. I work
+                    into simple, beautiful and intuitive designs. I possesss
+                    strong interpersonal skills and I am self motivated. I work
                     efficiently both as an individual contributor as well as
                     along with a team. I seek new challenges and try to think
                     out-of-the-box while looking for creative solutions to a
