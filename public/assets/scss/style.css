@@ -500,10 +500,8 @@ a {
   margin: 0 auto;
   padding: 0px 200px;
 }
-.about .inner {
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-  gap: 50px;
+.about .about-me {
+  margin: 0 0 50px 0;
 }
 .about .main-heading {
   display: flex;
@@ -627,7 +625,7 @@ a {
 }
 .about .img-card {
   position: relative;
-  width: 80%;
+  width: 70%;
   margin-left: 10px;
   z-index: 1;
 }

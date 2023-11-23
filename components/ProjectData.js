@@ -39,4 +39,12 @@ export const projectsDATA = [
     link: "https://weatherzen.netlify.app/",
     imageUrl: "/assets/images/weather-Image.jpeg",
   },
+  {
+    id:6,
+    title: "context-store",
+    description: "Context ",
+    about: "This is the context-api store",
+    link: "https://context-store.netlify.app/",
+    imageUrl: "/assets/images/project6.jpeg",
+  },
 ];
