@@ -28,8 +28,8 @@ export const projectsDATA = [
     title: "Redux-store",
     description: "The Redux-Toolkit",
     about: "This is the Redux-Toolkit Test ",
-    link: "https://reduxxtoolkitstore.netlify.app/",
-    imageUrl: "/assets/images/project4.png",
+    link: "https://rtk-shop.netlify.app/",
+    imageUrl: "/assets/images/project4.jpeg",
   },
   {
     id:5,
