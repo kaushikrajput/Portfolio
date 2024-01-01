@@ -33,11 +33,11 @@ export const projectsDATA = [
   },
   {
     id:5,
-    title: "Weather-app",
-    description: "The Weather",
-    about: "This is the Weather app ",
-    link: "https://weatherzen.netlify.app/",
-    imageUrl: "/assets/images/weather-Image.jpeg",
+    title: "E-Commerce",
+    description: "Context ",
+    about: "This is the E-commerce store",
+    link: "https://e-commerce-rage.vercel.app/",
+    imageUrl: "/assets/images/project7.jpeg",
   },
   {
     id:6,
@@ -46,5 +46,13 @@ export const projectsDATA = [
     about: "This is the context-api store",
     link: "https://context-store.netlify.app/",
     imageUrl: "/assets/images/project6.jpeg",
+  },
+  {
+    id:7,
+    title: "Weather-app",
+    description: "The Weather",
+    about: "This is the Weather app ",
+    link: "https://weatherzen.netlify.app/",
+    imageUrl: "/assets/images/weather-Image.jpeg",
   },
 ];
