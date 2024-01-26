@@ -32,9 +32,7 @@ const About = () => {
                     <li>JavaScript</li>
                     <li>React</li>
                   </ul>
-                  {/* <div className="resume">
-                    <span className="resume-btn">Resume</span>
-                  </div> */}
+                 
                 </div>
               </div>
               <div className="col-lg-5 order2">
@@ -50,51 +48,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          {/* <div className="random-facts">
-            <div className="row justify-content-center order1 ">
-              <div className="col-lg-7 text-center order2">
-                <div className="mentor-img">
-                  <Image
-                    src="/assets/images/gojo5.jpg"
-                    alt=""
-                    width={350}
-                    height={350}
-                  />
-                </div>
-              </div>
-              <div className="col-lg-5 text-center order1">
-                <h2>Random facts</h2>
-                <div className="texts">
-                  <ul className="facts-list">
-                    <li>I drink a lot of coffee</li>
-                    <li>I'm a bit of a clean freak</li>
-                    <li>Fan of movies, TV series</li>
-                    <li>
-                      I'm slightly addicted to{" "}
-                      <Link
-                        href="https://www.instagram.com/_imkaushik/"
-                        target="_blank"
-                        style={{ fontWeight: "500" }}
-                      >
-                        Instagram
-                      </Link>
-                    </li>
-                    <li>
-                      Spotify playlist{" "}
-                      <Link
-                        target="_blank"
-                        href="https://open.spotify.com/playlist/1VZXAlqJdvwledp0RYTUvF"
-                        style={{ fontWeight: "500" }}
-                      >
-                        Brighten Up<small>⚡</small>
-                      </Link>
-                    </li>
-                    <li>Gojo is my mentor</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div> */}
+          
 
           <div className="to-work-page">
             <Link href="/projects">

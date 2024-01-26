@@ -135,7 +135,6 @@
   .img-card {
     position: relative;
     width: 70%;
-    margin-left: 10px;
     z-index: 1;
 
     &:before {
@@ -156,50 +155,14 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
-  .random-facts {
-    padding: 200px 40px 60px 40px;
-  }
+ 
   .texts a {
     color: #333333;
     text-decoration: underline;
   }
 
-  .random-facts h2 {
-    margin-bottom: 30px;
-    font-size: 32px;
-    line-height: 1.1;
-    font-weight: 400;
-  }
-
-  .random-facts ul {
-    padding: 0;
-    list-style: none;
-  }
-  .facts-list li {
-    margin-bottom: 15px;
-    font-size: 17px;
-    color: #545454;
-    font-weight: 400;
-  }
-  .mentor-img {
-    width: 50%;
-    height: auto;
-    margin: auto 20px;
-  }
-  .mentor-img:hover img {
-    transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
-  }
-  .mentor-img img {
-    transform: rotateX(70deg) rotateZ(-60deg) translate3d(-120px, 0px, 70px);
-    box-shadow: -80px 60px 15px 5px rgba(0, 0, 0, 0.4);
-    transition: all 0.4s;
-    transform-style: preserve-3d;
-  }
-  .mentor-img:hover img {
-    transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-  }
+  
+  
   .to-work-page p {
     color: #545454;
     font-size: 15px;
@@ -214,9 +177,7 @@
   .about {
     padding: 50px 0;
   }
-  .random-facts {
-    padding: 100px 0 40px 0;
-  }
+  
   .about-me {
     padding: 0 20px;
   }
