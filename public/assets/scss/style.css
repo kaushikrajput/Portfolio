@@ -692,13 +692,6 @@ a {
   .texts {
     margin-bottom: 50px;
   }
-  .mentor-img img {
-    width: 100%;
-    height: auto;
-  }
-  .mentor-img {
-    margin: auto;
-  }
   .order2 {
     order: 2;
   }
@@ -707,13 +700,6 @@ a {
   .about .main-heading {
     font-size: 40px;
     text-align: center;
-  }
-  .mentor-img:hover img {
-    transform: none;
-  }
-  .mentor-img img {
-    transform: none;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   }
 }
 .projects {
@@ -1082,12 +1068,9 @@ a {
   }
 }
 .contact .to-home-page p {
-  font-size: #000;
-  margin: 50px 0 0;
+  color: #545454;
   font-size: 15px;
-  letter-spacing: normal;
-  margin: 0;
-  padding: 0;
+  font-weight: 400;
 }
 .contact .to-home-page a:hover {
   color: #0a58ca;
