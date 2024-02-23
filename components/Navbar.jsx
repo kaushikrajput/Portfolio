@@ -34,11 +34,11 @@ const Navbar = () => {
             </div>
             <div className="nav-items">
               <ul className="nav-list ml-auto">
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link href="/about" className="nav-link">
                     About
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link href="/projects" className="nav-link">
                     Projects

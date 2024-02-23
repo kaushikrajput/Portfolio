@@ -13,7 +13,7 @@ const About = () => {
               <div className="col-lg-7 order1">
                 <div className="text-card skills">
                   <p>
-                    Hi! I'm Kaushik and I'm pursuing Master's degree in
+                    Hi! I'm Kaushik and I'm pursuing Master's in
                     Computer Application. I've enjoyed turning complex problems
                     into simple, beautiful and intuitive designs. I possesss
                     strong interpersonal skills and I am self motivated. I work
@@ -49,7 +49,6 @@ const About = () => {
             </div>
           </div>
           
-
           <div className="to-work-page">
             <Link href="/projects">
               <p className="mb-3">
