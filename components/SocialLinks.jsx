@@ -17,7 +17,7 @@ const SocialLinks = () => {
           </li>
           <li>
             <a
-              href="https://www.instagram.com/_imkaushik/"
+              href="https://www.instagram.com/kaushik.078/"
               aria-label="Instagram"
               target="_blank"
               rel="noreferrer"

@@ -23,12 +23,13 @@ const About = () => {
                     given problem.
                   </p>
                   <p>
-                    Here are a few technologies I've been working with recently:
+                    Tech Stack -
                   </p>
                   <ul className="skills-list">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>SASS</li>
+                    <li>Tailwind</li>
                     <li>JavaScript</li>
                     <li>React</li>
                   </ul>
