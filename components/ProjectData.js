@@ -1,12 +1,12 @@
 export const projectsDATA = [
-  {
-    id:1,
-    title: "Dashboard",
-    description: "The Dashboard",
-    about: "This is the Dashboard ",
-    link: "https://panell.netlify.app/",
-    imageUrl: "/assets/images/project5.jpeg",
-  },
+  // {
+  //   id:1,
+  //   title: "Dashboard",
+  //   description: "The Dashboard",
+  //   about: "This is the Dashboard ",
+  //   link: "https://panell.netlify.app/",
+  //   imageUrl: "/assets/images/project5.jpeg",
+  // },
   {
     id:2,
     title: "Skinfotechies",
